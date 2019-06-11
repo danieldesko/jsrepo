@@ -3,4 +3,7 @@ function createFullName() {
     this.surname = "Ivanov";
 }
 
-console.log(createFullName());
+function getName(){
+	createFullName();
+}
+console.log(getName());
